@@ -180,82 +180,17 @@ img {
 }
 
 .block-one {
-    width: 33%;
-    float: left;
+    width: 100%;
+    background-color: blue;
 }
 
 .block-two {
-    width: 33%;
-    float: left;
+    width: 100%;
+    background-color: rgb(0, 217, 255);
 }
 
 .block-three {
-    width: 34%;
-    float: left;
-}
-
-.background {
     width: 100%;
-    height: 100px;
+    background-color: rgb(255, 0, 85);
 }
-
-@media (min-width: 801px) {
-    .background {
-        background-color: green;
-    }
-}
-
-@media (max-width: 800px) {
-    .background {
-        background-color: rgb(128, 0, 96);
-    }
-}
-
-.block:after {
-        visibility: hidden;
-        display: block;
-        content: "";
-        clear: both;
-        height: 0;
-}
-
-.group-block {
-    width: 100%;
-}
-
-* {
-    box-sizing: border-box;
-}
-.one-block {
-    width: 25%;
-    height: 100px;
-    float: left;
-    background-color: gray;
-    border: 1px solid black;
-}
-
-
-@media (max-width: 1000px) {
-    .one-block {
-       width: 50%;
-    }
-}
-
-@media (max-width: 800px) {
-    .one-block {
-       width: 100%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
